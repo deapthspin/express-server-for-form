@@ -22,4 +22,4 @@ app.post('/forms', mongoPractice.createQ)
 app.get('/forms', mongoPractice.getQ)
 app.delete('/forms/:id', mongoPractice.deleteQ)
 
-app.listen(process.env.PORT || 6969)
+app.listen(process.env.PORT)
